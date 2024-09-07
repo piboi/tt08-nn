@@ -6,22 +6,22 @@ module fsm_16_states(
 );
 
 // State definitions
-parameter s1   = 9'd0;
-parameter s2   = 9'd1;
-parameter s3   = 9'd2;
-parameter s4   = 9'd3;
-parameter s5   = 9'd4;
-parameter s6   = 9'd5;
-parameter s7   = 9'd6;
-parameter s8   = 9'd7;
-parameter s9   = 9'd8;
-parameter s10  = 9'd9;
-parameter s11  = 9'd10;
-parameter s12  = 9'd11;
-parameter s13  = 9'd12;
-parameter s14  = 9'd13;
-parameter s15  = 9'd14;
-parameter s16  = 9'd15;
+parameter s1   = 5'd0;
+parameter s2   = 5'd1;
+parameter s3   = 5'd2;
+parameter s4   = 5'd3;
+parameter s5   = 5'd4;
+parameter s6   = 5'd5;
+parameter s7   = 5'd6;
+parameter s8   = 5'd7;
+parameter s9   = 5'd8;
+parameter s10  = 5'd9;
+parameter s11  = 5'd10;
+parameter s12  = 5'd11;
+parameter s13  = 5'd12;
+parameter s14  = 5'd13;
+parameter s15  = 5'd14;
+parameter s16  = 5'd15;
 
 
 always @(posedge clk or negedge rst_n) begin
