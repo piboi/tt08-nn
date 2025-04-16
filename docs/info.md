@@ -1,3 +1,13 @@
+---
+title: "My Title"
+author: "My Name"
+output:
+  pdf_document:
+    latex_engine: xelatex
+    includes:
+      in_header: header.tex
+---
+
 <!---
 
 This file is used to generate your project datasheet. Please fill in the information below and delete any unused
